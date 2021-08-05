@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'Interview' do
+  use_frameworks!
+
+  pod 'Kingfisher'
+
+  target 'InterviewTests' do
+    inherit! :search_paths
+  end
+
+  target 'InterviewUITests' do
+  end
+
+end
